@@ -203,6 +203,7 @@ h6, .h6 {
 
 p img {
    margin: 0;
+   border-radius: 8px;
 }
 
 p.lead {
@@ -3147,6 +3148,23 @@ html.no-csstransitions .featured {
 
 
 /* -------------------------------------------------------------------
+ * ## about navigation
+ * ------------------------------------------------------------------- */
+
+ .about__nav {
+    /* position: absolute; */
+    
+ }
+
+.about__nav img {
+   border-radius: 8px;
+   max-width: 100%;
+   height: auto;
+ }
+
+
+
+/* -------------------------------------------------------------------
  * ## tags
  * ------------------------------------------------------------------- */
 .s-extra .tags-wrap {
@@ -3628,6 +3646,8 @@ footer h4::after {
 
 .s-content__media img {
    vertical-align: bottom;
+   border-radius: 4px;
+   
 }
 
 .s-content__media, .s-content__post-thumb {
@@ -4212,5 +4232,39 @@ footer h4::after {
 #cForm {
    margin-top: 3.6rem;
 }
+
+
+
+/*  Overlay for images  
+.overlay__container {
+   position: relative;
+}
+
+.overlay {
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   opacity: 0;
+   transition: .5s ease;
+   background-color: black;
+}
+
+.overlay__container:hover  .overlay {
+   opacity: 1;
+}
+
+.overlay__text {
+   color: white;
+   font-size: 20px;
+   font-family: "metropolis-medium", sans-serif;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+*/
 
 /*# sourceMappingURL=main.css.map */
